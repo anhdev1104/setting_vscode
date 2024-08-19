@@ -1,0 +1,83 @@
+{
+  "vscode_custom_css.imports": ["file:///D:/custom-vscode/style.css"],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDelete": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "color-highlight.markerType": "underline",
+  "indentRainbow.colors": [
+    "rgba(230, 57, 70, 0.04)",
+    "rgba(42, 157, 143, 0.04)",
+    "rgba(233, 196, 106, 0.04)",
+    "rgba(244, 162, 97, 0.04)",
+    "rgba(168, 218, 220, 0.04)",
+    "rgba(69, 123, 157, 0.04)",
+    "rgba(231, 111, 81, 0.04)"
+  ],
+  "prettier.tabWidth": 2,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 120,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.suggest.preview": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "[css]": {
+    "editor.matchBrackets": "never",
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "editor.lineHeight": 2.2,
+  "git.openRepositoryInParentFolders": "never",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "typescript": "typescriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "eslint.alwaysShowStatus": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.tabSize": 2,
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.printWidth": 120,
+  "editor.letterSpacing": 1,
+  "editor.cursorBlinking": "expand",
+
+  "editor.fontLigatures": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.env.windows": {},
+  "[jade]": {
+    "editor.defaultFormatter": "ducfilan.pug-formatter"
+  },
+  "window.zoomLevel": 0.5,
+  "editor.stickyScroll.enabled": false,
+  "scss.lint.unknownAtRules": "ignore",
+  "workbench.colorTheme": "Evondev Dracula Author",
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "console-ninja.featureSet": "Community",
+  "css.lint.unknownAtRules": "ignore",
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "workbench.tree.indent": 10,
+  "workbench.tree.renderIndentGuides": "always"
+}
