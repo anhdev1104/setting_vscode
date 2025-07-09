@@ -1,5 +1,4 @@
 {
-  "vscode_custom_css.imports": ["file:///D:/custom-vscode/style.css"],
   "liveServer.settings.donotShowInfoMsg": true,
   "explorer.confirmDelete": false,
   "workbench.iconTheme": "material-icon-theme",
@@ -16,10 +15,6 @@
     "rgba(69, 123, 157, 0.04)",
     "rgba(231, 111, 81, 0.04)"
   ],
-  "prettier.tabWidth": 2,
-  "editor.wordWrap": "bounded",
-  "editor.wordWrapColumn": 120,
-  "editor.cursorSmoothCaretAnimation": "on",
   "editor.suggest.preview": true,
   "javascript.inlayHints.parameterNames.enabled": "all",
   "typescript.inlayHints.parameterNames.enabled": "all",
@@ -33,9 +28,7 @@
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.inlineSuggest.enabled": true,
-  "editor.formatOnSave": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
@@ -53,31 +46,39 @@
   },
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "editor.tabSize": 2,
-  "prettier.singleQuote": true,
-  "prettier.arrowParens": "avoid",
-  "prettier.printWidth": 120,
-  "editor.letterSpacing": 1,
   "editor.cursorBlinking": "expand",
-
   "editor.fontLigatures": true,
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.env.windows": {},
-  "[jade]": {
-    "editor.defaultFormatter": "ducfilan.pug-formatter"
-  },
-  "window.zoomLevel": 0.5,
+  "window.zoomLevel": -0.5,
   "editor.stickyScroll.enabled": false,
   "scss.lint.unknownAtRules": "ignore",
-  "workbench.colorTheme": "Evondev Dracula Author",
   "liveServer.settings.donotVerifyTags": true,
   "editor.minimap.renderCharacters": false,
   "editor.minimap.showSlider": "always",
-  "console-ninja.featureSet": "Community",
   "css.lint.unknownAtRules": "ignore",
   "editor.quickSuggestions": {
     "strings": "on"
   },
   "workbench.tree.indent": 10,
-  "workbench.tree.renderIndentGuides": "always"
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorTheme": "Atom One Dark",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.tabWidth": 2,
+  // "prettier.singleQuote": true,
+  // "prettier.arrowParens": "avoid",
+  "editor.wordWrap": "bounded",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "Cascadia Code",
+  "editor.letterSpacing": 0.5,
+  "extensions.ignoreRecommendations": true,
+  "gitlens.advanced.messages": {
+    "suppressCreatePullRequestPrompt": true
+  },
+  "githubPullRequests.pullBranch": "never"
 }
